@@ -1,9 +1,14 @@
 ﻿#include <iostream>
-int funcMinus(int a, int b)
+int funcUmn(int a,int b)
 {
-    return a - b;
+    return a * b;
+}
+int funcDel(int a, int b)
+{
+    return a / b;
 }
 int main()
 {
-    std::cout << "Minus - " <<funcMinus(18, 12)<<"\n";
+    std::cout << funcUmn(2, 4)<<"\n";
+    std::cout << funcDel(4, 2)<<"\n";
 }
