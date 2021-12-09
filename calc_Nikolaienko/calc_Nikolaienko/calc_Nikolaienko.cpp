@@ -1,9 +1,9 @@
 ﻿#include <iostream>
-int funcPluc(int a, int b)
+int funcMinus(int a, int b)
 {
-    return a + b;
+    return a - b;
 }
 int main()
 {
-    std::cout << funcPluc(18, 12);
+    std::cout << "Minus - " <<funcMinus(18, 12)<<"\n";
 }
